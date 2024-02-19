@@ -34,7 +34,7 @@ const meowth = new Pokemon("Meowth", "Normal", 30);
 // Instantiate trainers
 const ash = Object.create(trainer);
 ash.name = "Ash"
-console.log(`${ash.name} has started his Pokemon journey!`);
+console.log(`${ash["name"]} has started his Pokemon journey!`);
 const teamRocket = Object.create(trainer);
 teamRocket.name = "Team Rocket";
 console.log(`${teamRocket.name} is up to no good!`);
