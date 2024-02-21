@@ -63,5 +63,3 @@ if (pikachu.fainted) {
 } else {
     console.log(`${teamRocket.name} is blasting off again!`);
 }
-
-
